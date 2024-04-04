@@ -1,12 +1,16 @@
-"networking":{
-    "allowedIpRanges":["AzureFrontDoor.Backend"]
-}
-
-"forwardingGateway":{
-    "requiredHeaders":{
-        "X-Azure-FDID":"45cc7bc2-09ac-4453-97f9-5a91085da0f1"
+{
+    "networking": {
+        "allowedIpRanges": [
+            "AzureFrontDoor.Backend"
+        ]
     },
-    "allowedFowardedHosts":[
-        "haruguchitest.5d4cd10463324a91be60.japanwest.aksapp.io"
-    ]
+
+"forwardingGateway": {
+        "requiredHeaders": {
+            "X-Azure-FDID": "45cc7bc2-09ac-4453-97f9-5a91085da0f1"
+        },
+        "allowedForwardedHosts": [
+            "haruguchitest.5d4cd10463324a91be60.japanwest.aksapp.io"
+        ]
+    }
 }
