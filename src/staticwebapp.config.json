@@ -13,7 +13,7 @@
             "haruguchitest.5d4cd10463324a91be60.japanwest.aksapp.io"
         ]
     },
-    "route":[
+    "routes":[
         {
             "route":"/members",
             "allowedRoles":["authenticated","members"],
