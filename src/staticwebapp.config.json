@@ -10,7 +10,7 @@
             "X-Azure-FDID": "45cc7bc2-09ac-4453-97f9-5a91085da0f1"
         },
         "allowedForwardedHosts": [
-            "haruguchitest.5d4cd10463324a91be60.japanwest.aksapp.io"
+            "https://my-static-web-app-endpoint-fkh3bvbbdxf8a5f3.z03.azurefd.net"
         ]
     },
     "routes":[
